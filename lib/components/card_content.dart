@@ -18,10 +18,10 @@ class CardChild extends StatelessWidget {
         children: [
           Icon(
             selectedIcon,
-            size: 80.0,
+            size: 70.0,
             color: Colors.white,
           ),
-          SizedBox(height: 15.0),
+          SizedBox(height: 10.0),
           Text(label, style: kLabelTextStyle),
         ],
       ),
